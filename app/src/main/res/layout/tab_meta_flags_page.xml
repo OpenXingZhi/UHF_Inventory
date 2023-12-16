@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_meta_flags"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/chk_enable_meta_flag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:checked="false"
+        android:text="@string/enable" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="#f0f0f0"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_epc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="true"
+            android:text="EPC" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_antenna_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="@string/antannaid" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_time_stamp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="@string/Timestamp" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_frequency"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="@string/Frequency" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_rssi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="RSSI" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_read_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="@string/readCount" />
+
+        <CheckBox
+            android:id="@+id/chk_meta_select_tag_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:checked="false"
+            android:text="@string/tagData" />
+    </LinearLayout>
+
+</LinearLayout>

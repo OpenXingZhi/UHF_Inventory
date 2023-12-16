@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none" >
+
+    <TabHost
+        android:id="@+id/tabInventoryHost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="360dip" >
+
+                <include layout="@layout/tab_selection_page" />
+
+                <include layout="@layout/tab_meta_flags_page" />
+
+                <include layout="@layout/tab_inventory_read_page" />
+
+                <include layout="@layout/tab_embedded_command_page" />
+
+                <include layout="@layout/tab_access_pwb_page" />
+
+                <include layout="@layout/tab_timeout_page" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_margin="5dip">
+
+                <Button
+                    android:id="@+id/btn_set_cancel"
+                    style="?android:attr/absListViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+
+                <Button
+                    android:id="@+id/btn_set_ok"
+                    style="?android:attr/absListViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:layout_weight="1"
+                    android:text="OK" />
+            </LinearLayout>
+        </LinearLayout>
+    </TabHost>
+
+</ScrollView>

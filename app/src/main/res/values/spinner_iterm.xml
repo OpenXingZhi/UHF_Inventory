@@ -1,0 +1,137 @@
+<resources>
+
+    <string-array name="commList">
+        <item>Bluetooth</item>
+        <item>COM</item>
+        <item>NET</item>
+        <item>USB</item>
+        <item>USB Serial Converter</item>
+    </string-array>
+    <string-array name="deviveList">
+        <item>K71V1</item>
+        <item>UM200</item>
+        <item>M60</item>
+        <item>(U)AH2212</item>
+        <item>UR-PAN</item>   
+    </string-array>
+    <string-array name="baudList">
+        <item>9600</item>
+        <item>38400</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="frameList">
+        <item>8E1</item>
+        <item>8O1</item>
+        <item>8N1</item>
+    </string-array>
+    <string-array name="targetList">
+        <item>00:Inventoried(S0)</item>
+        <item>01:Inventoried(S1)</item>
+        <item>02:Inventoried(S2)</item>
+        <item>03:Inventoried(S3)</item>
+        <item>04:SL</item>
+    </string-array>
+    <string-array name="actiontList">
+        <item>00:assert SL or inventoried → A deassert SL or inventoried → B</item>
+        <item>01:assert SL or inventoried → A do nothing</item>
+        <item>02:do nothing deassert SL or inventoried → B</item>
+        <item>03:negate SL or (A → B,B → A)do nothing</item>
+        <item>04:deassert SL or inventoried → B assert SL or inventoried → A</item>
+        <item>05:deassert SL or inventoried → B do nothing</item>
+        <item>06:do nothing assert SL or inventoried → A</item>
+        <item>07: do nothing negate SL or (A → B, B → A)</item>
+    </string-array>
+    <string-array name="memoryBankList">
+        <item>00:RFU</item>
+        <item>01:EPC</item>
+        <item>02:TID</item>
+        <item>03:User</item>
+    </string-array>
+    <string-array name="embeddedCmdLockItemList">
+        <item>00:writeable from either the open or secured states</item>
+        <item>01:permanently writeable from either the open or secured states and may never be locked</item>
+        <item>02:writeable from the secured state but not from the open state</item>
+        <item>03:not writeable from any state</item>
+    </string-array>
+    <string-array name="power">
+        <item>1DB</item>
+        <item>2DB</item>
+        <item>3DB</item>
+        <item>4DB</item>
+        <item>5DB</item>
+        <item>6DB</item>
+        <item>7DB</item>
+        <item>8DB</item>
+        <item>9DB</item>
+        <item>10DB</item>
+        <item>11DB</item>
+        <item>12DB</item>
+        <item>13DB</item>
+        <item>14DB</item>
+        <item>15DB</item>
+        <item>16DB</item>
+        <item>17DB</item>
+        <item>18DB</item>
+        <item>19DB</item>
+        <item>20DB</item>
+        <item>21DB</item>
+        <item>22DB</item>
+        <item>23DB</item>
+        <item>24DB</item>
+        <item>25DB</item>
+        <item>26DB</item>
+        <item>27DB</item>
+        <item>28DB</item>
+        <item>29DB</item>
+        <item>30DB</item>
+    </string-array>
+    <string-array name="region">
+        <item>OPEN   859~873MHz 902~930MHz</item>
+        <item>NA(902~926MHz)</item>
+        <item>EU(865~867MHz)</item>
+        <item>KR(910~913MHz)</item>
+        <item>IN(865~867MHz)</item>
+        <item>JP(916.8~923.4MHz)</item>
+        <item>PRC(920~925MHz)</item>
+        <item>EU2(869~872MHz)</item>
+        <item>EU3(865.6~867.6MHz)</item>
+        <item>KR2(917~923.5MHz)</item>
+        <item>PRC2(840~845MHz)</item>
+        <item>AU(920~926MHz)</item>
+        <item>NZ(922~927.5MHz)</item>
+        <item>NA2(917.4~927.2MHz)</item>
+        <item>NA3(917.5~922.5MHz)</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="customFrequency">
+        <item>by range</item>
+        <item>by specified value</item>
+    </string-array>
+    <string-array name="frequencycount">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+</resources>

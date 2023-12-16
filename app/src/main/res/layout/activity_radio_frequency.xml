@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioFrequency"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtRegion"
+                android:fontFamily="sans-serif-black" />
+
+            <Spinner
+                android:entries="@array/region"
+                android:id="@+id/spRegion"
+                android:background="@color/cardview_shadow_end_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFrequencyCount"
+                android:fontFamily="sans-serif-black" />
+
+            <Spinner
+                android:id="@+id/spFrequencyCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/frequencycount" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCustonFrequency"
+                android:fontFamily="sans-serif-black" />
+
+            <Spinner
+                android:entries="@array/customFrequency"
+                android:id="@+id/spCustomFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/txtMinFrequency"
+                android:fontFamily="sans-serif-black" />
+
+            <EditText
+                android:id="@+id/etxtMinFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="860000"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtMaxFrequency"
+                android:fontFamily="sans-serif-black" />
+
+            <EditText
+                android:id="@+id/etxtMaxFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="960000"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tvFrequency1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Frequency1"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="80dp"
+                    android:maxLength="6"
+                    android:text="0"
+                    android:layout_toRightOf="@id/tvFrequency2"
+                    android:inputType="number" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tvFrequency2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/Frequency2"
+                    android:layout_toRightOf="@id/etxtFrequency2"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency2"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="80dp"
+                    android:maxLength="6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/tvFrequency3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Frequency3"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="80dp"
+                    android:text="0"
+                    android:maxLength="6"
+                    android:layout_toRightOf="@id/tvFrequency4" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/tvFrequency4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/Frequency4"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency4"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="80dp"
+                    android:maxLength="6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/tvFrequency5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Frequency5"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="80dp"
+                    android:text="0"
+                    android:maxLength="6"
+                    android:layout_toRightOf="@id/tvFrequency6" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/tvFrequency6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/Frequency6"
+                    android:layout_toRightOf="@id/etxtFrequency6"
+                    android:fontFamily="sans-serif-black" />
+
+                <EditText
+                    android:id="@+id/etxtFrequency6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:text="0"
+                    android:minWidth="80dp"
+                    android:maxLength="6"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:gravity="center"
+                    android:id="@+id/btnFrequencyDefault"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/btnDefault" />
+                <Button
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnFrequencyConfirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/btnConfirm" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

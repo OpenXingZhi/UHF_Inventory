@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UHF Inventory</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="tab_reader">标签读写器</string>
+    <string name="tab_inventory">标签盘点</string>
+    <string name="device">设备:</string>
+    <string name="connection">连接</string>
+    <string name="disconnection">断开</string>
+    <string name="information">详细信息</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="Parameter">参数</string>
+    <string name="clearList">清空</string>
+    <string name="communication">通信:</string>
+    <string name="Bluetooth">蓝牙:</string>
+    <string name="port">端口:</string>
+    <string name="ComID">串口号:</string>
+    <string name="baud">波特率:</string>
+    <string name="frame">帧:</string>
+
+    <string name="timeout">超时时间:</string>
+    <string name="accessPasswork">访问密码(十六进制):</string>
+    <string name="enable">使能</string>
+    <string name="readPower">读功率:</string>
+    <string name="writePower">写功率:</string>
+    <string name="btnConfirm">写</string>
+    <string name="btnDefault">读</string>
+    <string name="txtRegion">区域:</string>
+    <string name="txtFrequencyCount">频点数:</string>
+    <string name="txtCustonFrequency">自定义频率</string>
+    <string name="txtMinFrequency">最小频率(kHz)</string>
+    <string name="txtMaxFrequency">最大频率(kHz)</string>
+    <string name="Frequency1">频率1(kHz)</string>
+    <string name="Frequency2">频率2(kHz)</string>
+    <string name="Frequency3">频率3(kHz)</string>
+    <string name="Frequency4">频率4(kHz)</string>
+    <string name="Frequency5">频率5(kHz)</string>
+    <string name="Frequency6">频率6(kHz)</string>
+
+    <string name="success">修改成功</string>
+    <string name="tagData">标签数据</string>
+    <string name="Timestamp">时间戳</string>
+    <string name="antannaid">天线口</string>
+    <string name="Frequency">频率</string>
+    <string name="readCount">读取次数</string>
+</resources>

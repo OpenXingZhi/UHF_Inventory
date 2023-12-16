@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_selection"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/chk_enable_selection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:checked="false"
+        android:text="@string/enable" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Target:" />
+
+    <Spinner
+        android:id="@+id/sp_selection_target"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:entries="@array/targetList" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Action:" />
+
+    <Spinner
+        android:id="@+id/sp_selection_action"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:entries="@array/actiontList" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Memory Bank:" />
+
+    <Spinner
+        android:id="@+id/sp_selection_memory_bank"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:entries="@array/memoryBankList" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Mask Bit Point:" />
+
+    <Spinner
+        android:id="@+id/sp_selection_mask_bit_point"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Bit Length:" />
+
+    <Spinner
+        android:id="@+id/sp_selection_mask_bit_length"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:text="Mask Bit(Hex):" />
+
+    <EditText
+        android:id="@+id/ed_selection_mask_bit"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:inputType="text" />
+
+</LinearLayout>

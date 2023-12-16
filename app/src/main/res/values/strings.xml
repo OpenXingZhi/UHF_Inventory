@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UHF Inventory</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tab_reader">tab_reader</string>
+    <string name="tab_inventory">Tab_Inventory</string>
+    <string name="device">Device:</string>
+    <string name="connection">Connect</string>
+    <string name="disconnection">DisConnect</string>
+    <string name="information">Information</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="Parameter">Parameter</string>
+    <string name="clearList">Clear List</string>
+    <string name="communication">Communication:</string>
+    <string name="Bluetooth">Bluetooth</string>
+    <string name="port">Port:</string>
+    <string name="ComID">COM</string>
+    <string name="baud">Baud:</string>
+    <string name="frame">Frame:</string>
+
+    <string name="timeout">TimeOut:</string>
+    <string name="accessPasswork">Access Passwoek(Hex):</string>
+    <string name="enable">Enable</string>
+    <string name="readPower">read power:</string>
+    <string name="writePower">write power:</string>
+    <string name="btnConfirm">Write</string>
+    <string name="btnDefault">Read</string>
+    <string name="txtRegion">Region:</string>
+    <string name="txtFrequencyCount">Frequency Count:</string>
+    <string name="txtCustonFrequency">Custom Frequency</string>
+    <string name="txtMinFrequency">Min Frequency(kHz)</string>
+    <string name="txtMaxFrequency">Max Frequency(kHz)</string>
+    <string name="Frequency1">Frequency-1(kHz)</string>
+    <string name="Frequency2">Frequency-2(kHz)</string>
+    <string name="Frequency3">Frequency-3(kHz)</string>
+    <string name="Frequency4">Frequency-4(kHz)</string>
+    <string name="Frequency5">Frequency-5(kHz)</string>
+    <string name="Frequency6">Frequency-6(kHz)</string>
+    <string name="success">Modify Success!</string>
+
+    <string name="tagData">tag data</string>
+    <string name="Timestamp">Time stamp</string>
+    <string name="antannaid">Antanna ID</string>
+    <string name="Frequency">Frequency</string>
+    <string name="readCount">Read Count</string>
+
+</resources>

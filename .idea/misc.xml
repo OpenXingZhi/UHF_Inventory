@@ -1,0 +1,39 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Andea/Android/AndroidStudio/UHF_Inventory/app/src/main/res/layout/activity_config_frequency.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/Android/AndroidStudio/UHF_Inventory/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/Android/AndroidStudio/UHF_Inventory/app/src/main/res/layout/tab_inventory_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/Android/AndroidStudio/UHF_Inventory/app/src/main/res/layout/tab_reader_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/activity_antanna.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/tab_emdedded_write_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/tab_inventory_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/tab_reader_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Andea/document/iData-50U/UHF_Inventory/app/src/main/res/layout/tab_selection_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/activity_antanna.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/activity_config_frequency.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/activity_inventory_set.xml" value="0.22" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/activity_radio_frequency.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_access_pwb_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_embedded_command_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_emdedded_lock_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_emdedded_write_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_inventory_page.xml" value="0.22" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_inventory_read_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_meta_flags_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_reader_page.xml" value="0.22" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_selection_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/UHF_Inventory/app/src/main/res/layout/tab_timeout_page.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
